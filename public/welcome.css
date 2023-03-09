@@ -1,0 +1,46 @@
+.antialiased{
+    background-color: #212121;
+}
+.welcome-logo{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dashboard-link{
+    text-align: center;
+    width:90% ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.reg-link , .login-link{
+    padding: 25px;
+}
+.button-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.project-title{
+    text-align: center;
+    color: #fff;
+}
+.project-description{
+    text-align: center;
+    color: #fff;
+}

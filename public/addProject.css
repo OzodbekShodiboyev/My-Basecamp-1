@@ -1,0 +1,55 @@
+.container{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    width: 100%;
+    border-radius: 12px;
+}
+textarea{
+    width: 100%;
+    margin-top: 30px;
+}
+.label-name{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.desription{
+    margin-top: 30px;
+}
+.label-description{
+    color: #fff;
+}
+.btn-add{
+    width: 100%;
+    border-radius: 12px;
+    padding: 15px;
+    color: #111827;
+    margin-top: 30px;
+}
+.alert{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: #000000;
+    padding: 10px;
+    background-color: #5deb50;
+    border: 1px solid #219716;
+    font-size: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cancel-icon{
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+}
+textarea{
+    height: 200px;
+    color: #111827;
+}

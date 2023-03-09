@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.project-card{
+    max-width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.edit-link{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #de12f9;
+}
+.edit-link:hover{
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    background-color: #de12f9;
+    color: #fff;
+}
+.delete-btn{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #f91229;
+    background-color: #f91229;
+}
+.delete-btn:hover{
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    background-color: #f91229;
+    color: #fff;
+}
+
+.name-project{
+    font-size: 22px;
+}
